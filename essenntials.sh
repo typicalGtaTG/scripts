@@ -24,7 +24,7 @@ apt-get install speedtest -y
 
 echo Install NodeJs
 curl -sL https://deb.nodesource.com/setup_14.x | bash -
-sudo apt install nodejs -y
-sudo apt install build-essential -y
+apt install nodejs -y
+apt install build-essential -y
 
 echo "Installation Finished Successfully!"
