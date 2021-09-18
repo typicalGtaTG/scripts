@@ -16,7 +16,7 @@ echo Updating Package Repositories and Applications
 apt update && apt upgrade -y
 
 echo Installing Curl, Wget, nano, git and htop
-apt-get install wget curl nano git htop -y
+apt-get install wget curl nano lsof git htop -y
 
 echo Installing SpeedTest Official
 curl -s https://install.speedtest.net/app/cli/install.deb.sh | bash
