@@ -23,7 +23,7 @@ curl -s https://install.speedtest.net/app/cli/install.deb.sh | bash
 apt-get install speedtest -y
 
 echo Install NodeJs
-curl -sL https://deb.nodesource.com/setup_14.x | bash -
+curl -sL https://deb.nodesource.com/setup_18.x | bash -
 apt install nodejs -y
 apt install build-essential -y
 
