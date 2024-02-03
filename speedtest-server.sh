@@ -43,7 +43,7 @@ configure_rc_local() {
         echo "exit 0" >> /etc/rc.local
         chmod +x /etc/rc.local
     else
-        sed -i '$i su root -c '/root/OoklaServer --daemon'' /etc/rc.local
+        sed -i '$i su root -c "/root/OoklaServer --daemon"' /etc/rc.local
     fi
 
     systemctl enable --now rc-local
